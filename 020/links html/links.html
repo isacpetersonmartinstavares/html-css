@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            background-color: blue;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        a:visited{
+            color: white;
+        }
+        a:active{
+            color: brown;
+        }
+        a::after{
+            content: 'link';
+            text-decoration: none;
+            font-weight: lighter;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p>os p.elemento(::) mexem no conteudo</p>
+    <p>coisa antes o depois aparecam</p>
+    <p>
+        id=#
+        class=.
+        p.class=:
+        p.elemento=::
+    </p>
+    <ul>
+        <li><a href="#">#</a></li>
+        <li><a href="#">#</a></li>
+        <li><a href="#">#</a></li>
+    </ul>
+</body>
+</html>
