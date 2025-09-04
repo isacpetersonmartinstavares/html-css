@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            /*vincolo ou fundo fixo é attachment
+            background-attachment:scroll;=rolar o conteudo com o fundo
+            background-attachment: fixed;=fundo fixo*/
+            background-attachment: fixed;
+            height: 100vh;
+            background-color: black;
+            background-image: url("image.webp");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /*
+            background-size:auto;
+            background-size:contain;=mostra 100% visivel(sem corte);
+            background-size: cover;cobrir a tela inteira;
+            */
+            
+            /*shorthand
+            background: ;
+            background: cor,image,posicao,repetiçao, attachment;
+            */
+        }
+        main{
+            background-color: lightgray;
+            width: 450px;
+            padding: 10px;/*espaco interno*/
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>teste</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente esse quidem est atque facilis recusandae hic. Asperiores, nihil animi consequatur repudiandae voluptatibus accusamus odio delectus reiciendis ullam fugit voluptatem? Nesciunt.</p>
+    </main>
+</body>
+</html>
